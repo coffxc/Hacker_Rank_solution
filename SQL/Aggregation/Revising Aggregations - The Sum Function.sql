@@ -1,0 +1,3 @@
+SELECT SUM(POPULATION) Total_Population
+FROM CITY
+WHERE DISTRICT='California';
