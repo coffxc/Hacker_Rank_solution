@@ -1,0 +1,5 @@
+SELECT C.Name
+FROM CITY  C
+JOIN COUNTRY CO
+ON C.CountryCode =CO.Code 
+Where CO.CONTINENT ="Africa";
